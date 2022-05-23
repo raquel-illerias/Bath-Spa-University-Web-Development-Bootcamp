@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-container {
+    background-color: antiquewhite;
+    width: 330px;
+    height: 530px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px rgb(216, 218, 203);
+}
+
+.inner-container {
+    width: 300px;
+    height: 500px;
+    position: relative;
+    top: 3px;
+    left:15px;
+    margin-top: 20px;
+}
+
+.top-red {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    list-style: none;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px; 
+}
+
+.d3 {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 10px;
+} 
+
+.german-d {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 60%;
+    height: 32px;
+    width: 48px;
+    text-align: center;
+    padding-block-start: .1rem;
+    
+}
+
+.german-flag {
+    width: 75px;
+    height: 32px;
+    margin-right: 10px;
+    border: 1.5px solid black;
+}
+
+.polo-turbo {
+    height: 235px;
+    width: 100%;
+    display: block;
+}
+
+.blue-box {
+    background-color: #00d5ff;
+    height: 36px;
+}
+
+span {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top:5px;
+    left:7px;
+
+}
+
+.specs-polo {
+    background-color: rgb(250, 249, 179);
+    height: 170px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+
+.specs {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    background-color: rgb(250, 249, 179); 
+    padding-block-start: .2rem;
+    margin-inline-start: .6rem;
+    margin-inline-end: .6rem;
+}
+
+
+#engine {
+    padding-top: 10px;
+}
+
