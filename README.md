@@ -1,2 +1,2 @@
-# Bath-Spa-University-Web-Development-Bootcamp
-Projects and challenges developed during the Bootcamp
+#  Challenges-Web-Dev-Bootcamp
+Projects and challenges developed during the Bath Spa University Web Development Bootcamp
